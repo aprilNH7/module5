@@ -1,12 +1,12 @@
 # Travlr
 
-Project Overview
+# Project Overview
 Travlr-RESTfulAPI is a RESTful API designed for managing travel-related data.
 This project is structured to provide a backend service that can handle numerous
 operations related to travel information, such as retrieving, updating, and
 deleting travel data.
 
-Project Structure
+# Project Structure
 The project contains the following main directories and files:
 
 .gitignore: Specifies files and directories that should be ignored by Git.
@@ -22,12 +22,12 @@ public: Directory for static files like HTML, CSS, and JavaScript.
 travlr: Contains specific modules and functionalities related to the Travlr application.
 Getting Started
 
-Prerequisites
+# Prerequisites
 Ensure you have the following installed:
 Node.js (version 12.x or higher)
 npm (version 6.x or higher)
 
-Installation
+# Installation
 Clone the repository:
 git clone <repository-url>
 
@@ -37,12 +37,12 @@ cd Travlr-RESTfulAPI
 Install the dependencies:
 npm install
 
-Running the Application
+# Running the Application
 Start the server:
 npm start
 The server should now be running on http://localhost:3000.
 
-Directory Details
+# Directory Details
 app_api:
 
 Contains the main logic for API routes.
@@ -54,8 +54,8 @@ Includes server configurations and middleware setup.
 Manages how requests and responses are handled.
 public:
 Stores public assets like HTML, CSS, and client-side JavaScript.
-Usage
 
+# Usage
 This API provides endpoints to manage travel-related data. Below are some
 example endpoints:
 
@@ -68,7 +68,7 @@ DELETE /api/travels/
 Refer to the API documentation (to be added) for detailed information on each
 endpoint.
 
-Contributing
+# Contributing
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
